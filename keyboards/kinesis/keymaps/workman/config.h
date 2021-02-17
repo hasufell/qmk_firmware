@@ -1,3 +1,19 @@
 #pragma once
 
 // place overrides here
+
+#define WORKMAN 0  // Base workman
+#define PERMISSIVE_HOLD
+/* #define PERMISSIVE_HOLD_PER_KEY */
+#define TAPPING_TERM 177
+/* #define TAPPING_TERM_PER_KEY */
+/* #define IGNORE_MOD_TAP_INTERRUPT */
+/* #define IGNORE_MOD_TAP_INTERRUPT_PER_KEY */
+// #define HOLD_ON_OTHER_KEY_PRESS
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define ONESHOT_TAP_TOGGLE 2
+#define ONESHOT_TIMEOUT 5000
+#define COMBO_COUNT 1
+#define UNICODE_SELECTED_MODES UC_LNX
+#undef TAPPING_FORCE_HOLD
+
